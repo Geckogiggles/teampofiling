@@ -1,0 +1,23 @@
+{
+  "name": "teampofiling",
+  "version": "1.0.0",
+  "description": "A team prrofile geneator that any team can use and impliment for an easy \"About Us\" section.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geckogiggles/teampofiling.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Geckogiggles/teampofiling/issues"
+  },
+  "homepage": "https://github.com/Geckogiggles/teampofiling#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
