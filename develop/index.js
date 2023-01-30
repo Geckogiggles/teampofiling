@@ -12,7 +12,7 @@ const promptUser = () => {
                 if (value) {
                     return true;
                     } else {
-                        console.log("Please choose a team name and type it to us so we can continue to form your 'Team Info' page.")
+                        console.log("Please choose a team name and type it in to continue your 'Team Info' page.")
                     }
                 }
         },
@@ -65,5 +65,6 @@ const promptUser = () => {
                     }
             }
         ]);
+
     }
 
