@@ -5,8 +5,8 @@ const Employee = require('../lib/Employee');
 const Manager = require ('../lib/Manager');
 const Engineer = require ('../lib/Engineer');
 const Intern = require ('../lib/Intern');
-    const generateHTML = require('generateHTML');
-const { writeFile } = require('fs').promises;
+// const generateHTML = require('generateHTML');
+// const { writeFile } = require('fs').promises;
 const teamArray = []
     function promptUserforManager() {
         inquirer.prompt([
@@ -265,5 +265,7 @@ const teamArray = []
 
     }
     //import generateHTML and then call it and give it teamArray and whatever it returns you pass it into the write file.
-    writeFile('./develop', generateHTML(teamArray))
+    fs.writeFileSync('./dist', generateHTML(teamArray),function(err){
+        if(err) throw err
+        })
 promptUserforManager();
